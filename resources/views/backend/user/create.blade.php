@@ -218,7 +218,7 @@
             </div>
         </div> 
     <div class="text-right">
-        <button class="btn btn-primary" type="submit" name="send" value="send">Lưu Lại</button>
+        <button class="btn btn-primary" type="submit" name="send" value="send">Lưu Lại Nè</button>
     </div>
     </div>
 </form>
