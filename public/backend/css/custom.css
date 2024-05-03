@@ -1,0 +1,98 @@
+.error-message{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+}
+input::placeholder{
+    font: size 13px;
+
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt20{
+    margin-bottom:20px ;
+}h5{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+/* Định dạng cho phần tử chứa hình ảnh */
+.img-cover {
+    width: 60px; /* Điều chỉnh chiều rộng của hình ảnh thành 60px */
+    height: 60px; /* Điều chỉnh chiều cao của hình ảnh thành 60px */
+    display: block; /* Hiển thị phần tử chứa hình ảnh như một khối block */
+    overflow: hidden; /* Ẩn phần nào của hình ảnh nếu vượt quá kích thước của phần tử */
+}
+
+/* Định dạng cho hình ảnh bên trong phần tử chứa hình ảnh */
+.img-cover img {
+    width: 100%; /* Đảm bảo rằng hình ảnh sẽ điền vào toàn bộ phần tử chứa hình ảnh */
+    height: 100%; /* Đảm bảo rằng hình ảnh sẽ điền vào toàn bộ phần tử chứa hình ảnh */
+    object-fit: cover; /* Duy trì tỷ lệ khung hình và cắt ảnh để vừa khớp */
+}
+
+table strong{
+    min-width: 88px;
+    display: inline-block;
+}
+.table > thead > tr> th,
+.table > tbody > tr> th,
+.table > tfoot > tr> th,
+.table > thead > tr> td,
+.table > tbody > tr> td,
+.table > tfoot > tr> td{
+vertical-align: middle;
+}
+.uk-flex-space-between{
+    -ms-flex-order: justify;
+    -webkit-justify-content:space-between;
+    justify-content: space-between;
+}
+.uk-flex-middle{
+    -ms-flex-align: center;
+    -webkit-align-itews:center;
+    align-items: center;
+}
+.uk-flex{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.filter .perpage{
+    display: inline-block;
+}
+.btn{
+    margin-bottom:0;
+    font-size: 13px;
+}
+.filter-wrapper .form-control{
+    height: 32px;
+    max-width: 200px;
+    font-size: 13px;
+}
+.box .ibox{
+    box-shadow:0 2px 4px rgba(0, 0, 0 ,.1) ;
+}
+.mr10{
+    margin-right: 10px;
+}
+.mr5{
+    margin-right: 5px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.control-label{
+    display: block;
+}
+.panel-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight:700;
+    color: #1a1a1a;
+}
+.panel-description{
+    font-size: 15px;
+}
+
